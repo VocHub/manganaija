@@ -56,6 +56,9 @@ const Index = ({
       <Banner anime={banner} />
 
       <Section title="Trending Now" animeList={trending.media} />
+   
+<iframe data-aa='2011014' src='//ad.a-ads.com/2011014?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+
 
       {/* only show */}
       {recentlyWatched.length > 0 ? (
@@ -63,6 +66,9 @@ const Index = ({
       ) : null}
 
       <Section title="Popular" animeList={popular.media} />
+
+<iframe data-aa='2011014' src='//ad.a-ads.com/2011014?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+
       <Section title="Top Rated (All time)" animeList={topRated.media} />
     </>
   );
